@@ -7,7 +7,11 @@ curl -fsSL https://raw.githubusercontent.com/xiaofujie369/ipset-firewall/main/up
 
 # 卸载防火墙黑名单
 curl -fsSL https://raw.githubusercontent.com/xiaofujie369/ipset-firewall/main/uninstall.sh | bash
+
+
 检查是否生效
+
+
 echo "=== ipset ==="
 ipset list block4 | grep -E "References|Number of entries"
 ipset list block6 | grep -E "References|Number of entries"
