@@ -8,7 +8,7 @@ set -Eeuo pipefail
 # Optional:
 #   RAW_BASE="https://raw.githubusercontent.com/YOUR_GITHUB_USER/koyun-ipset-firewall/main" bash install.sh
 
-REPO_RAW_DEFAULT="https://raw.githubusercontent.com/YOUR_GITHUB_USER/koyun-ipset-firewall/main"
+REPO_RAW_DEFAULT="https://raw.githubusercontent.com/xiaofujie369/ipset-firewall/main"
 RAW_BASE="${RAW_BASE:-$REPO_RAW_DEFAULT}"
 
 SET4="${SET4:-block4}"
