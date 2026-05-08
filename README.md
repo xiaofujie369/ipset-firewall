@@ -33,5 +33,3 @@ DROP       0    --  ::/0                 ::/0                 match-set block6 s
 
 enabled
 enabled
-
-References: 1 代表 ipset 已经被 iptables 调用，说明黑名单正在生效。
